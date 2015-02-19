@@ -1,5 +1,5 @@
 <?
-// *** We need to make sure theyre coming from a POST -
+// *** We need to make sure theyre coming from a POST
 if ($_SERVER["REQUEST_METHOD"] <> "POST")
 	die("You can only reach this page by posting from the html form");
 
